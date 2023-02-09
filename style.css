@@ -1,0 +1,54 @@
+#parent{
+    border: 2px solid black;
+    height: 600px;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* flex-direction: column; */
+/* justify-content: flex-end; */
+/* align-items: flex-end; */
+   
+    
+}
+/* img{
+    height: 200px;
+    width: 200px;
+} */
+#red,#bl{
+    height: 100px;
+    width: 100px;
+}
+
+#red{
+    background-color: red;
+}
+#bl{
+    background-color: black;
+}
+#em{
+    margin-left: 32px;
+}
+/* #user{
+    border: 2px solid;
+    
+} */
+/* #user::selection{
+   background-color: crimson;
+   color: white;
+
+} */
+
+#un:focus{
+    background-color: blue;
+    color: white;
+}
+
+#sub{
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+}
+input{
+    width: 7px;
+}
